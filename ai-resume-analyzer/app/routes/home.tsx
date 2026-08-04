@@ -17,8 +17,9 @@ export function meta({ }: Route.MetaArgs) {
 export default function Home() {
 
   const { auth } = usePuterStore();
-   const navigate = useNavigate();
+  const navigate = useNavigate();
 
+  //IF user isnt logged in it will redirect him to log in page
   useEffect(() => {
     if (!auth.isAuthenticated) navigate('/auth?next=/');
   }, [auth.isAuthenticated])
