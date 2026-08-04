@@ -1,82 +1,144 @@
+# 🚀 AI Resume Analyzer
 
-Project Banner
-Static Badge  TypeScript Static Badge
-AI Resume Analyzer
-Build this project step by step with our detailed tutorial on JavaScript Mastery YouTube. Join the JSM family!
-📋 Table of Contents
-✨ Introduction
-⚙️ Tech Stack
-🔋 Features
-🤸 Quick Start
-🔗 Assets
-🚀 More
+> An AI-powered Resume Analyzer built with React, TypeScript, React Router, and Puter.js. Upload resumes, analyze them against job descriptions, receive ATS scores, and receive personalized AI-powered feedback.
 
+---
 
-✨ Introduction
-Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing—all wrapped in a clean, reusable UI.
+## 🌐 Live Demo
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 50k+ members. It's a place where people help each other out.
+🚀 **Try the application here:** https://puter.com/app/ai-resume-analyzer-1foc
 
+> **Note:** This application uses **Puter Authentication**, **Puter AI**, **Puter File Storage**, and **Puter KV Database**. Please **log in with your Puter account** to use all features.
 
+---
 
-⚙️ Tech Stack
-React is a popular open‑source JavaScript library for building user interfaces using reusable components and a virtual DOM, enabling efficient, dynamic single-page and native apps.
+## ✨ Features
 
-React Router v7 is the go‑to routing library for React apps, offering nested routes, data loaders/actions, error boundaries, code splitting, and SSR support—all with a smooth upgrade path from v6.
+- 🔐 Secure authentication with Puter.js
+- 📄 Upload and securely store resumes
+- 🤖 AI-powered resume analysis
+- 📊 ATS compatibility scoring
+- 💡 Personalized resume improvement suggestions
+- ☁️ Cloud file storage using Puter FS
+- 🗄️ Resume database using Puter KV
+- ♻️ Reusable and modular React components
+- 📱 Fully responsive design
+- ⚡ Lightning-fast development with Vite
 
-Puter.com is an advanced, open-source internet operating system designed to be feature-rich, exceptionally fast, and highly extensible. Puter can be used as: A privacy-first personal cloud to keep all your files, apps, and games in one secure place, accessible from anywhere at any time.
+---
 
-Puter.js is a tiny client‑side SDK that adds serverless auth, storage, database, and AI (GPT, Claude, DALL·E, OCR…) straight into your browser app—no backend needed and costs borne by users.
+## 🛠️ Tech Stack
 
-Tailwind CSS is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
+- **React** – A JavaScript library for building fast, interactive, and reusable user interfaces using components.
+- **TypeScript** – A typed superset of JavaScript that improves code quality with static type checking and better developer tooling.
+- **React Router v7** – A routing library for React that enables client-side navigation, nested routes, and modern data loading.
+- **Puter.js** – A client-side SDK that provides authentication, AI, cloud storage, and database services without requiring a custom backend.
+- **Tailwind CSS** – A utility-first CSS framework for rapidly building responsive and customizable user interfaces.
+- **Vite** – A modern frontend build tool and development server that offers lightning-fast startup and hot module replacement.
+- **Zustand** – A lightweight state management library for managing global application state in React.
 
-TypeScript is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers, making it ideal for building large-scale applications.
+---
 
-Vite is a fast build tool and dev server using native ES modules for instant startup, hot‑module replacement, and Rollup‑powered production builds—perfect for modern web development.
+## 🚀 Getting Started
 
-Zustand is a minimal, hook-based state management library for React. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
+### Prerequisites
 
-🔋 Features
-👉 Easy & convenient auth: Handle authentication entirely in the browser using Puter.js—no backend or setup required.
+Make sure you have installed:
 
-👉 Resume upload & storage: Let users upload and store all their resumes in one place, safely and reliably.
+- Git
+- Node.js
+- npm
 
-👉 AI resume matching: Provide a job listing and get an ATS score with custom feedback tailored to each resume.
+---
 
-👉 Reusable, modern UI: Built with clean, consistent components for a great-looking and maintainable interface.
+### Clone the Repository
 
-👉 Code Reusability: Leverage reusable components and a modular codebase for efficient development.
-
-👉 Cross-Device Compatibility: Fully responsive design that works seamlessly across all devices.
-
-👉 Modern UI/UX: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
-
-And many more, including code architecture and reusability.
-
-🤸 Quick Start
-Follow these steps to set up the project locally on your machine.
-
-Prerequisites
-
-Make sure you have the following installed on your machine:
-
-Git
-Node.js
-npm (Node Package Manager)
-Cloning the Repository
-
+```bash
 git clone https://github.com/Mhammad2004/ai-resume-analyzer.git
 cd ai-resume-analyzer
-Installation
+```
 
-Install the project dependencies using npm:
+---
 
+### Install Dependencies
+
+```bash
 npm install
-Running the Project
+```
 
+---
+
+### Run the Development Server
+
+```bash
 npm run dev
-Open http://localhost:5173 in your browser to view the project.
+```
 
+Open your browser and visit:
 
+```
+http://localhost:5173
+```
 
-Project Banner
+---
+
+## 📋 How It Works
+
+1. Sign in with your Puter account.
+2. Upload your resume in PDF format.
+3. Enter the company name, job title, and job description.
+4. The application:
+   - Converts the PDF into an image.
+   - Uploads it to Puter File Storage.
+   - Sends the resume and job description to an AI model.
+   - Generates an ATS score with detailed AI feedback.
+5. View all previously analyzed resumes from your dashboard.
+
+---
+
+## 🧠 AI Features
+
+- 🎯 Resume-to-job matching
+- 📊 ATS score generation
+- ✅ Resume strengths
+- 💡 Personalized improvement suggestions
+- 📈 Skill gap analysis
+- 🤖 AI-generated professional feedback
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and optimized for:
+
+- 💻 Desktop
+- 📱 Mobile
+- 📟 Tablet
+
+---
+
+## ☁️ Deployment
+
+This application is deployed on **Puter** and can be accessed here:
+
+👉 **https://puter.com/app/ai-resume-analyzer-1foc**
+
+> **Important:** Because the application relies on Puter's backend services (Authentication, AI, File Storage, and KV Database), users must sign in with a **Puter account** before using the application.
+
+---
+
+## 📖 What I Learned
+
+While building this project, I gained practical experience with:
+
+- React Router v7
+- TypeScript
+- Puter.js
+- AI integration
+- File uploads and cloud storage
+- PDF processing with PDF.js
+- Zustand state management
+- Building reusable React components
+- Tailwind CSS
+- Asynchronous JavaScript
+- Error handling and debugging
